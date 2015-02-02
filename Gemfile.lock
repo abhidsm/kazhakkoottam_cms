@@ -54,6 +54,8 @@ GEM
     multi_json (1.10.1)
     mysql2 (0.3.17)
     polyglot (0.3.5)
+    puma (2.11.0)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -322,6 +324,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   mysql2
+  puma
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
